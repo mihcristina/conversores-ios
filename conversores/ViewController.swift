@@ -81,7 +81,7 @@ class ViewController: UIViewController {
             lbResult.text = String(temperate * 1.8 + 32.0)
         } else {
             lsResultUnit.text = "Celsius"
-            lbResult.text = String((temperate - 1.8) + 32.0)
+            lbResult.text = String((temperate - 32.0) / 1.8)
         }
     }
     
