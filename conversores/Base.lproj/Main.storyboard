@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -92,6 +93,7 @@
                     <connections>
                         <outlet property="btUnit1" destination="bKV-Zt-BMX" id="H5W-3R-fDW"/>
                         <outlet property="btUnit2" destination="HV7-g0-VVc" id="A2S-42-HL6"/>
+                        <outlet property="laUnit" destination="gg1-gt-GTM" id="rk5-ep-cdj"/>
                         <outlet property="lbResult" destination="B1A-UX-Wme" id="kXP-sD-OlV"/>
                         <outlet property="lsResultUnit" destination="SUq-ow-EKw" id="Ipv-D0-fXR"/>
                         <outlet property="tfValue" destination="6dp-Ck-CEo" id="Lb6-eh-24a"/>
